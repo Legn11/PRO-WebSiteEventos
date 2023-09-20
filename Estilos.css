@@ -1,0 +1,62 @@
+.caja_principal{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 241);
+}
+.caja_banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(ba.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+}
+.caja_contenido{
+    display: flex;
+    justify-content: space-around; 
+}
+.caja_eventos{
+    display: flex;
+    background-color: aliceblue;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:1px 1px 18px 2px rgb(192, 183, 192);
+    margin: 25px;
+    width: 350px;
+    height: 500px;
+}
+.caja_descripcion{
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+img{
+    width: 350px;
+    height: 250px;
+}
+.h2 {
+    color: black;
+    width: 350px;
+    height: 40px;
+}
+.h1{
+    color: rgb(184, 236, 238);
+    font-size: 45px;
+    font-weight: 900;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: medium;
+    margin: 5px;
+}
+i{
+    color: rgb(17, 17, 87);
+}
