@@ -36,6 +36,11 @@
     align-items: flex-start;
     flex-direction: column;
 }
+.caja_footer{
+    height: 18rem;
+    width: 100vw;
+    background-color: rgb(8, 8, 78);
+}
 img{
     width: 350px;
     height: 250px;
