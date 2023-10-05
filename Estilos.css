@@ -95,7 +95,7 @@ i{
 }
 
 @media(max-width:1080px){
-        .descriptionBox{
+        .mainBox{
             justify-items: center;
             align-items: center;
             flex-direction: column;
