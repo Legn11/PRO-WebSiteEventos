@@ -12,11 +12,11 @@ footer{
     position:relative;
     padding: 0px;
 }
-.caja_principal{
+/* .caja_principal{
     display: flex;
     flex-direction: column;
     background-color: rgb(236, 236, 241);
-}
+} */
 .caja_banner{
     display: flex;
     justify-content: center;
@@ -29,9 +29,11 @@ footer{
     height: 600px;
     margin-bottom: 40px;
 }
-.caja_contenido{
+.mainBox{
     display: flex;
-    justify-content: space-around; 
+    justify-content: center;
+    gap:2rem;
+    padding-bottom: 2rem;
 }
 .caja_eventos{
     display: flex;
@@ -40,13 +42,13 @@ footer{
     align-items: center;
     flex-direction: column;
     box-shadow:1px 1px 18px 2px rgb(192, 183, 192);
-    margin: 25px;
     width: 350px;
     height: 500px;
 }
-.caja_descripcion{
+.descriptionBox{
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 .caja_footer{
     height: 18rem;
@@ -78,7 +80,26 @@ p{
 i{
     color: rgb(17, 17, 87);
 }
-     @media(max-width:1080px){
+.middleBox{
+    display: flex;
+}
+.button, a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 3rem;
+    background-color: rgb(13, 3, 107);
+    border: solid 1px rgba(0, 0, 0, 0.658);
+    border-radius: 10px;
+    box-shadow:1px 1px 15px 1px rgba(107, 107, 107, 0.623);
+
+    color: blanchedalmond;
+    text-decoration:none; 
+    font-size: 18px;  
+}
+
+@media(max-width:1080px){
         .caja_contenido{
             justify-items: center;
             align-items: center;
