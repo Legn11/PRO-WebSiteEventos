@@ -12,12 +12,7 @@ footer{
     position:relative;
     padding: 0px;
 }
-/* .caja_principal{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(236, 236, 241);
-} */
-.caja_banner{
+.bannerBox{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -35,7 +30,7 @@ footer{
     gap:2rem;
     padding-bottom: 2rem;
 }
-.caja_eventos{
+.row{
     display: flex;
     background-color: aliceblue;
     justify-items: center;
@@ -50,7 +45,7 @@ footer{
     flex-direction: column;
     width: 70%;
 }
-.caja_footer{
+.footerBox{
     height: 18rem;
     width: 100%;
     background-color: rgb(25, 10, 110);
@@ -100,12 +95,12 @@ i{
 }
 
 @media(max-width:1080px){
-        .caja_contenido{
+        .descriptionBox{
             justify-items: center;
             align-items: center;
             flex-direction: column;
         } 
-        .caja_banner{
+        .bannerBox{
             height: 25rem;
             width: 100vw;
         }
